@@ -527,6 +527,11 @@ a.postlink:hover, a.postlink:focus {
 	z-index: 51;
 }
 
+.cs-dropdown {
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+
 @media (max-width: 991.98px) {
 	#color_palette_placeholder td:nth-child(2n) {
 		display: none;
